@@ -1,0 +1,53 @@
+.movieInfo {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  padding: 0 8px;
+}
+
+.movieInfo h1 {
+  margin: 5px 0;
+}
+
+.movieInfo img {
+  border-radius: 8px;
+  width: 800px;
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.movieInfo h3 {
+  margin-top: 14px;
+}
+
+.movieInfo span {
+  margin: 8px 0;
+}
+
+.areaButtons button {
+  margin: 14px 12px 10px 0;
+  font-size: 20px;
+  border: 0;
+  outline: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.areaButtons button:hover {
+  background-color: brown;
+  color: #fff;
+}
+
+.areaButtons a {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.areaButtons a:hover {
+  color: #fff;
+}
